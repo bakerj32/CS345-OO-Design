@@ -1,0 +1,83 @@
+V "GNAT Lib v2012"
+A -gnat2005
+A -gnato
+A -gnata
+A -gnatwa
+A -gnatVa
+A -gnatA
+P SS ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnvnnnnnnvnnnnnnnnnnnnnn
+
+U tracking_pools.allocation_message%b  tracking_pools-allocation_message.adb  51ddf790 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.fixed%s	a-strfix.adb		a-strfix.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W tracking_pools%s	tracking_pools.adb	tracking_pools.ali
+
+D ada.ads		20120510125802 3ffc8e18
+D a-charac.ads		20120510125748 2d3ec45b
+D a-chlat1.ads		20120510125748 2825df20
+D a-except.ads		20120510125752 ec1b44c1
+D a-finali.ads		20120510125752 52ecdc1b
+D a-stream.ads		20120510125756 2ca4ee37
+D a-string.ads		20120510125756 90ac6797
+D a-strfix.ads		20120510125756 d07c346e
+D a-strmap.ads		20120510125756 9cb836fb
+D a-tags.ads		20120510125758 6c0509d0
+D a-unccon.ads		20120510125800 f9eb8f06
+D interfac.ads		20120510125814 129923ea
+D system.ads		20120510125846 6daf90c4
+D s-exctab.ads		20120510125824 66e51330
+D s-finroo.ads		20120510125824 4ff27390
+D s-imgint.ads		20120510125826 02dbe0c2
+D s-parame.ads		20120510125832 b6e20cc0
+D s-secsta.ads		20120510125832 eea35a36
+D s-soflin.ads		20120510125832 24c8153c
+D s-stache.ads		20120510125834 596fc1b4
+D s-stalib.ads		20120510125834 f78bcf95
+D s-stoele.ads		20120510125834 facd7d98
+D s-stoele.adb		20120510125834 afc5dc80
+D s-stopoo.ads		20120510125834 7b8fbeee
+D s-traent.ads		20120510125838 5221ee41
+D s-unstyp.ads		20120510125838 6ae15c76
+D tracking_pools.ads	20121010001822 098684cf
+D tracking_pools-allocation_message.adb  20121010001822 81a1c3fe
+D tracking_pools-allocation_message.adb  20121010001822 81a1c3fe
+X 1 ada.ads
+16K9*Ada 19e8 29|7r6 16r9 17r9
+X 7 a-string.ads
+16K13*Strings 35e16 29|7r10 16r13 17r13
+33n24*Left{33E9} 29|34r55 39r52
+X 8 a-strfix.ads
+18K21*Fixed 251e22 29|7w18 17r21
+195V13*Trim{string} 29|34s21 39s21
+X 22 s-stoele.ads
+54I9*Storage_Offset<integer>
+62I12*Storage_Count{54I9}
+X 27 tracking_pools.ads
+14K9*Tracking_Pools 52e19 29|14r10 54r5
+16I13*Storage_Count{22|62I12} 29|37r41 39r27
+19I13*Allocation_Count{long_integer} 29|32r39 34r27
+21R10*Tracking_Pool<24|42R9> 27e15 29|14r52
+23i9*Allocations{19I13} 29|46r27
+24i9*Deallocations{19I13} 29|50r27
+25i9*Allocated{16I13} 29|44r29
+26i9*Deallocated{16I13} 29|48r29
+X 29 tracking_pools-allocation_message.adb
+14V25*Allocation_Message{string} 27|14k9 29|14b25 54l20 54t38
+19a5 P1{string} 43r17
+20a5 P2{string} 45r17 49r17
+21a5 P3{string} 47r17
+22a5 P5{string} 51r17
+23a5 Message{string} 28m9 52r12
+24i5 Cur{integer} 28r18 28r25 29m9 29r16 52r26
+26U15 Add_String 26b15 26>27 30l9 30t19 34s9 39s9 43s5 45s5 47s5 49s5 51s5
+26s27 S{string} 28r31 28r48 29r22
+32U15 Add_Alloc_Count 32b15 32>32 35l9 35t24 46s5 50s5
+32i32 C{27|19I13} 34r51
+37U15 Add_Storage_Count 37b15 37>34 40l9 40t26 44s5 48s5
+37i34 C{27|16I13} 39r48
+

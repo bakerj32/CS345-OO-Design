@@ -1,0 +1,120 @@
+V "GNAT Lib v2012"
+A -gnat2005
+A -gnato
+A -gnata
+A -gnatwa
+A -gnatVa
+A -gnatA
+P SS ZX
+R nnnvnnnnnnvnvnnnnnvnnvvnnnvnnnnvnnnnnnnnnvnnvnnnnnnnnnnvnnnnnnnvnnnvnnvnnnnnnnnnnnnnn
+
+U ropes.concat_impl%b	ropes-concat_impl.adb	8a0d7f8a NE OO PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W interfaces%s		interfac.ads		interfac.ali
+W ropes%s		ropes.adb		ropes.ali
+W system%s		system.ads		system.ali
+W system.assertions%s	s-assert.adb		s-assert.ali
+W system.concat_4%s	s-conca4.adb		s-conca4.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+
+U ropes.concat_impl%s	ropes-concat_impl.ads	cc433c15 EE OO PF PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.streams%s		a-stream.ads		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ropes%s		ropes.adb		ropes.ali
+W system%s		system.ads		system.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+
+D ada.ads		20120510125802 3ffc8e18
+D a-except.ads		20120510125752 ec1b44c1
+D a-finali.ads		20120510125752 52ecdc1b
+D a-stream.ads		20120510125756 2ca4ee37
+D a-tags.ads		20120510125758 6c0509d0
+D a-unccon.ads		20120510125800 f9eb8f06
+D a-uncdea.ads		20120510125800 f15a5ed1
+D interfac.ads		20120510125814 129923ea
+D ropes.ads		20121012224220 21fc6ff1
+D ropes-concat_impl.ads	20121010001822 edbf53e4
+D ropes-concat_impl.adb	20121010001822 67b22c6e
+D system.ads		20120510125846 6daf90c4
+D s-assert.ads		20120510125818 a3a4e6ab
+D s-conca4.ads		20120510125822 025fe3be
+D s-exctab.ads		20120510125824 66e51330
+D s-finmas.ads		20120510125824 b95bb341
+D s-finroo.ads		20120510125824 4ff27390
+D s-parame.ads		20120510125832 b6e20cc0
+D s-poosiz.ads		20120510125832 9d8c569f
+D s-secsta.ads		20120510125832 eea35a36
+D s-soflin.ads		20120510125832 24c8153c
+D s-stache.ads		20120510125834 596fc1b4
+D s-stalib.ads		20120510125834 f78bcf95
+D s-stoele.ads		20120510125834 facd7d98
+D s-stoele.adb		20120510125834 afc5dc80
+D s-stopoo.ads		20120510125834 7b8fbeee
+D s-stposu.ads		20120510125834 197be7e5
+D s-stratt.ads		20120510125834 aedef97e
+D s-traent.ads		20120510125838 5221ee41
+D s-unstyp.ads		20120510125838 6ae15c76
+D tracking_pools.ads	20121010001822 098684cf
+X 9 ropes.ads
+19K9*Ropes 189e10 10|15r17 17r29 58r5 11|7r14 94r5
+81R10 Rope_Impl 107e15 10|17r35
+83P10 Rope_Impl_Access(104R10) 10|18r16 35r14 51r50 51r75 55r46 55r71 11|46r14
+. 47r24 53r20 73r50 74r18 82r41
+104H10 Rope_Impl
+105i9*Ref_Count{natural} 11|14r16 18r16 83m40
+106i9*Length{natural} 11|27r40 51r38 84m40
+115V14 Length{natural} 11|25R43 40R46 48R43 50s48 84R50 84R70
+120y14 Element{character} 11|29R20 31R20
+127x15 To_String 11|39R9 40R9
+138y14 Slice{83P10} 11|56R31 59R31
+160U15 Inc_Ref_Count 11|52s13 87s21
+161U15 Dec_Ref_Count 11|13s9 17s9
+174V14 Impl_Text_Image{string} 11|68s22 68s59
+177U15 Free[7|20] 11|15s13 19s13
+X 10 ropes-concat_impl.ads
+15K23*Concat_Impl 9|19k9 10|58l11 58e22 11|7b20 94l11 94t22
+17R10*Concat_Impl<9|104R10> 9|115p14 10|19e15 23P15 23r35 26P14 26r32 29P15
+. 29r51 33P14 33r37 40P14 40r54 11|10r35 24r32 36r51 44r37 66r54 83r27
+18p9*L{9|83P10} 11|12r26 13r26 14r14 15m21 15r21 25r58 29r36 39r27 40r61
+. 48r58 56r29 68r41 85m40
+18p12*R{9|83P10} 11|12r42 17r26 18r14 19m21 19r21 31r36 40r27 59r29 68r78
+. 85m51
+23U15*Dispose<9|112p15> 23^24 11|10b15 21l9 21t16
+23p24 R(17R10) 11|10b24 12r24 12r40 13r24 14r12 15r19 17r24 18r12 19r19
+26V14*Element{character}<9|120p14> 26>23 26>45 11|24b14 33l9 33t16
+26r23 Source{17R10} 11|24b23 25r51 27r33 29r29 31r29
+26i45 Index{positive} 11|24b45 27r24 28r12 29r43 31r43
+29U15*To_String<9|127p15> 29^26 30=26 30>50 11|36b15 41l9 41t18
+29p26 Source(17R10) 11|36b26 39r20 40r20 40r54
+30s26 Target{string} 11|37b26 39m30 40m30
+30i50 Start{positive} 11|37b50 39r38 40r38
+33V14*Slice{9|83P10}<9|138p14> 33^21 34>21 34>37 11|44b14 63l9 63t14
+33p21 Source(17R10) 11|44b21 48r51 50r56 51r31 52r28 53r38 56r22 59r22
+34i21 Low{positive} 11|45b21 50r24 51r12 55r12 56r38 59r54
+34i37 High{natural} 11|45b37 50r31 50r40 51r24 56r56 58r12 60r38
+40V14*Impl_Text_Contents{string}<9|146p14> 40^34 11|66b14 69l9 69t27
+40p34 R(17R10) 11|66b34 68r39 68r76
+42K13*Make 53l9 53e13 56r17 11|71b18 92l9 92t13
+51V18*Make_Concat_Impl{9|83P10} 51>36 51>42 56r22 11|73b18 91l13 91t29
+51p36 Left{9|83P10} 11|73b36 76r16 79r24 84r58 85r45
+51p42 Right{9|83P10} 11|73b42 77r24 78r19 84r78 85r56
+55V14*Make_Concat_Impl=56:22{9|83P10} 11|62s16
+55p32 Left{9|83P10}
+55p38 Right{9|83P10}
+X 11 ropes-concat_impl.adb
+25i9 Left_Length{natural} 28r21 31r51
+47p9 New_L{9|83P10} 56m13 62r34
+47p16 New_R{9|83P10} 59m13 62r41
+48i9 Left_Length{natural} 55r19 56r62 58r19 59r60 60r45
+82p21 New_Impl{9|83P10} 87r36 88r28
+

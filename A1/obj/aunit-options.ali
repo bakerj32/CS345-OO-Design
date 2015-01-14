@@ -1,0 +1,51 @@
+V "GNAT Lib v2012"
+A -gnat2005
+A -gnato
+A -gnata
+A -gnatwa
+A -gnatVa
+A -gnatA
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnvnnnnnnnnnnnnnn
+
+U aunit.options%s	aunit-options.ads	a82b211a NE OO PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W aunit%s		aunit.adb		aunit.ali
+W aunit.test_filters%s	aunit-test_filters.adb	aunit-test_filters.ali
+
+D ada.ads		20120510125802 3ffc8e18
+D a-except.ads		20120510125752 ec1b44c1
+D a-finali.ads		20120510125752 52ecdc1b
+D a-stream.ads		20120510125756 2ca4ee37
+D a-tags.ads		20120510125758 6c0509d0
+D a-unccon.ads		20120510125800 f9eb8f06
+D aunit.ads		20121010001822 76cdf7c6
+D aunit-options.ads	20121010001822 2fedf7fb
+D aunit-test_filters.ads  20121010001822 f10b2127
+D aunit-tests.ads	20121010001822 1da11d49
+D system.ads		20120510125846 6daf90c4
+D s-exctab.ads		20120510125824 66e51330
+D s-finmas.ads		20120510125824 b95bb341
+D s-finroo.ads		20120510125824 4ff27390
+D s-parame.ads		20120510125832 b6e20cc0
+D s-pooglo.ads		20120510125832 542f33d0
+D s-soflin.ads		20120510125832 24c8153c
+D s-stache.ads		20120510125834 596fc1b4
+D s-stalib.ads		20120510125834 f78bcf95
+D s-stoele.ads		20120510125834 facd7d98
+D s-stoele.adb		20120510125834 afc5dc80
+D s-stopoo.ads		20120510125834 7b8fbeee
+D s-traent.ads		20120510125838 5221ee41
+X 7 aunit.ads
+34K9*AUnit 48e10 8|32r6 34r9 39r25 48r5
+X 8 aunit-options.ads
+34K15*Options 7|34k9 8|48l11 48e18
+36R9*AUnit_Options 40e14 43r31
+37b7*Global_Timer{boolean} 44m7
+38b7*Test_Case_Timer{boolean} 45m7
+39p7*Filter{9|41P9} 46m7
+43r4*Default_Options{36R9}
+X 9 aunit-test_filters.ads
+38K15*Test_Filters 8|32w12 39r31 9|76e23
+41P9*Test_Filter_Access(40R9) 8|39r44
+

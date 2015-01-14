@@ -1,0 +1,74 @@
+V "GNAT Lib v2012"
+A -gnat2005
+A -gnato
+A -gnata
+A -gnatwa
+A -gnatVa
+A -gnatA
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnvnnnvnnvnvnnnnnnvnnnnnnnnnnnnnn
+
+U aunit%b		aunit.adb		2d7781ef NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.unchecked_conversion%s
+W aunit%s		aunit.adb		aunit.ali
+W aunit.memory%s	aunit-memory.adb	aunit-memory.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+U aunit%s		aunit.ads		76cdf7c6 EE NE OO PK
+
+D ada.ads		20120510125802 3ffc8e18
+D a-unccon.ads		20120510125800 f9eb8f06
+D aunit.ads		20121010001822 76cdf7c6
+D aunit.adb		20121010001822 f8add5f1
+D aunit-memory.ads	20121010001822 a0315146
+D interfac.ads		20120510125814 129923ea
+D system.ads		20120510125846 6daf90c4
+D s-stoele.ads		20120510125834 facd7d98
+D s-stoele.adb		20120510125834 afc5dc80
+X 1 ada.ads
+16K9*Ada 19e8 4|32r6 55r34 57r40 59r34
+X 2 a-unccon.ads
+20v14*Unchecked_Conversion 4|32w10 55r38 57r44 59r38
+X 3 aunit.ads
+34K9*AUnit 48l5 48e10 4|34r6 34r36 36b14 64r10 79r10 98l5 98t10
+36P9*Message_String(string) 38r27 44r40 45r53 46r41 4|54r53 56r23 76r41 88r40
+. 89r22
+38P12*Test_String{36P9}
+40E9*Status 40e37
+40n20*Success{40E9}
+40n29*Failure{40E9}
+44V13*Format{36P9} 44>21 4|88b13 96l8 96t14
+44s21 S{string} 4|88b21 89r55 91r16 92r19 92r35
+45V13*Message_Alloc{36P9} 45>28 4|54b13 70l8 70t21 89s40
+45i28 Length{natural} 4|54b28 65r21 67r33
+46U14*Message_Free 46=28 4|76b14 82l8 82t20
+46p28 Msg{36P9} 4|76b28 78r10 79r35 80m10
+X 4 aunit.adb
+38R9 Bounds 41e14 42r37 65r31 68r56
+39i7*First{natural} 66m25
+40i7*Last{natural} 67m25
+42P9 Bounds_Access(38R9) 46r23 58r26 60r10
+44R9 Fat_Pointer 47e14 48r17 56r10 61r13
+45m7*Address{7|64M9} 68m11
+46p7*Bound_Address{42P9} 63m11 66r11 67r11 68r38
+55V16 To_Message[2|20]{3|36P9} 69s14
+57V16 To_Bounds_Access[2|20]{42P9} 63s28
+59V16 To_Address[2|20]{7|64M9} 68s22
+61r7 Ret{44R9} 63m7 66m7 66r7 67m7 67r7 68m7 68r34 69r26
+89p7 Ptr{3|36P9} 92m10 92r10 95r14
+91i11 J{integer} 92r15 92r38
+X 5 aunit-memory.ads
+40K15*Memory 4|34w12 34r42 64r16 79r16 5|53e17
+42M9*size_t 4|65r13
+44V13*AUnit_Alloc{7|64M9} 4|64s23
+46U14*AUnit_Free 4|79s23
+X 7 system.ads
+37K9*System 4|33r6 33r36 45r23 58r10 60r25 7|195e11
+64M9*Address 4|45r30 58r17 60r32
+X 8 s-stoele.ads
+42K16*Storage_Elements 4|33w13 33r43 8|117e28
+76V14*"+"{7|64M9} 4|68s53
+

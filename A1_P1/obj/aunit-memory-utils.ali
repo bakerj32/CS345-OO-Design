@@ -1,0 +1,31 @@
+V "GNAT Lib v2012"
+A -gnat2005
+A -gnato
+A -gnata
+A -gnatwa
+A -gnatVa
+A -gnatA
+P ZX
+R nnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnvnnnnnnnnnnnnnn
+
+U aunit.memory.utils%b	aunit-memory-utils.adb	9b1c7ff2 NE OO PK
+W aunit.memory%s	aunit-memory.adb	aunit-memory.ali
+
+U aunit.memory.utils%s	aunit-memory-utils.ads	fb2f6c57 BN EE NE OO PK
+W aunit.memory%s	aunit-memory.adb	aunit-memory.ali
+
+D aunit.ads		20121010001822 76cdf7c6
+D aunit-memory.ads	20121010001822 a0315146
+D aunit-memory-utils.ads  20121010001822 5b1e3d11
+D aunit-memory-utils.adb  20121010001822 c00242e3
+D system.ads		20120510125846 6daf90c4
+X 1 aunit.ads
+34K9*AUnit 48e10 3|34r9 42r5 4|32r14 43r5
+X 2 aunit-memory.ads
+40K15*Memory 1|34k9 2|53e17 3|34r15 42r11 4|32r20 43r11
+X 3 aunit-memory-utils.ads
+34K22*Utils 2|40k15 3|42l18 42e23 4|32b27 43l18 43t23
+37+12 Object 38r27 4|40r18
+38P12 Name(37+12) 39r34 40r30 4|38r30
+40v13*Gen_Alloc 4|38b13 41l8 41t17
+

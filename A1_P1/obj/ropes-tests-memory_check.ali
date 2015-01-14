@@ -1,0 +1,143 @@
+V "GNAT Lib v2012"
+A -gnat2005
+A -gnato
+A -gnata
+A -gnatwa
+A -gnatVa
+A -gnatA
+P SS ZX
+R nnnnnnnnnnnnnnnnnnnnnnvnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnvnnnnnnvnnnnnnnnnnnnnn
+
+U ropes.tests.memory_check%b  ropes-tests-memory_check.adb  5236691c NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W aunit%s		aunit.adb		aunit.ali
+W aunit.assertions%s	aunit-assertions.adb	aunit-assertions.ali
+W ropes.tests%s		ropes-tests.adb		ropes-tests.ali
+W tracking_pools%s	tracking_pools.adb	tracking_pools.ali
+W tracking_pools.allocation_message%b  tracking_pools-allocation_message.adb  tracking_pools-allocation_message.ali
+
+U ropes.tests.memory_check%s  ropes-tests-memory_check.ads  0c098dcd BN EE NE OO PK
+W aunit%s		aunit.adb		aunit.ali
+W aunit.simple_test_cases%s  aunit-simple_test_cases.adb  aunit-simple_test_cases.ali
+W aunit.test_fixtures%s	aunit-test_fixtures.adb	aunit-test_fixtures.ali
+W ropes.tests%s		ropes-tests.adb		ropes-tests.ali
+
+D ada.ads		20120510125802 3ffc8e18
+D a-calend.ads		20120510125748 d86d6c8c
+D a-charac.ads		20120510125748 2d3ec45b
+D a-chlat1.ads		20120510125748 2825df20
+D a-except.ads		20120510125752 ec1b44c1
+D a-finali.ads		20120510125752 52ecdc1b
+D a-ioexce.ads		20120510125752 8b9de6cd
+D a-stream.ads		20120510125756 2ca4ee37
+D a-string.ads		20120510125756 90ac6797
+D a-strfix.ads		20120510125756 d07c346e
+D a-strmap.ads		20120510125756 9cb836fb
+D a-tags.ads		20120510125758 6c0509d0
+D a-textio.ads		20120510125800 386df5d4
+D a-unccon.ads		20120510125800 f9eb8f06
+D a-uncdea.ads		20120510125800 f15a5ed1
+D ada_containers.ads	20121010001822 11329e00
+D ada_containers-aunit_lists.ads  20121010001822 d9ebc89a
+D aunit.ads		20121010001822 76cdf7c6
+D aunit-assertions.ads	20121010001822 b7f9ecd6
+D aunit-options.ads	20121010001822 2fedf7fb
+D aunit-simple_test_cases.ads  20121010001822 4111c32f
+D aunit-test_filters.ads  20121010001822 f10b2127
+D aunit-test_fixtures.ads  20121010001822 faadeab5
+D aunit-test_results.ads  20121010001822 171847c9
+D aunit-test_suites.ads	20121010001822 6821dc24
+D aunit-tests.ads	20121010001822 1da11d49
+D aunit-time_measure.ads  20121010001822 58355f18
+D gnat.ads		20120510125812 fd2ad2f1
+D g-souinf.ads		20120510125812 e66ff50e
+D interfac.ads		20120510125814 129923ea
+D i-cstrea.ads		20120510125814 1bd72c32
+D ropes.ads		20121012224220 21fc6ff1
+D ropes-tests.ads	20121010001822 4fa13b70
+D ropes-tests-memory_check.ads  20121010001822 f8149f27
+D ropes-tests-memory_check.adb  20121010001822 a4172cc7
+D system.ads		20120510125846 6daf90c4
+D s-crtl.ads		20120510125824 ac77b159
+D s-exctab.ads		20120510125824 66e51330
+D s-ficobl.ads		20120510125824 443b9d66
+D s-finmas.ads		20120510125824 b95bb341
+D s-finroo.ads		20120510125824 4ff27390
+D s-imgint.ads		20120510125826 02dbe0c2
+D s-parame.ads		20120510125832 b6e20cc0
+D s-pooglo.ads		20120510125832 542f33d0
+D s-poosiz.ads		20120510125832 9d8c569f
+D s-secsta.ads		20120510125832 eea35a36
+D s-soflin.ads		20120510125832 24c8153c
+D s-stache.ads		20120510125834 596fc1b4
+D s-stalib.ads		20120510125834 f78bcf95
+D s-stoele.ads		20120510125834 facd7d98
+D s-stoele.adb		20120510125834 afc5dc80
+D s-stopoo.ads		20120510125834 7b8fbeee
+D s-stratt.ads		20120510125834 aedef97e
+D s-traent.ads		20120510125838 5221ee41
+D s-unstyp.ads		20120510125838 6ae15c76
+D s-wchcon.ads		20120510125840 bfeb2e3d
+D tracking_pools.ads	20121010001822 098684cf
+D tracking_pools-allocation_message.adb  20121010001822 81a1c3fe
+D tracking_pools-allocation_message.adb  20121010001822 81a1c3fe
+X 1 ada.ads
+16K9*Ada 19e8 35|1r6 15r13
+X 13 a-textio.ads
+49K13*Text_IO 471e16 35|1w10 15r17
+263U14*Put_Line 35|15s25
+X 18 aunit.ads
+34K9*AUnit 48e10 34|1r6 2r6 7r27 18r29 35|2r6 7r9
+36P9*Message_String(string)
+X 19 aunit-assertions.ads
+44K15*Assertions 155e21 35|2w12 32r13
+48U14*Assert 35|32s24
+101U14*Init_Test
+104U14*Clear_Failures
+107V13*Has_Failures{boolean}
+110R9*Failure_Iter
+113V13*First_Failure{110R9}
+X 21 aunit-simple_test_cases.ads
+42K15*Simple_Test_Cases 77e28 34|1w12 7r33
+44H9*Test_Case<19|96R9> 75e73 34|7r51
+47y13*Name{18|36P9}
+50V13*Routine_Name{18|36P9}
+53x14*Run_Test 35|14s22
+57U14*Set_Up
+60U14*Tear_Down
+67U14*Run
+X 23 aunit-test_fixtures.ads
+76K15*Test_Fixtures 90e24 34|2w12 18r35
+78R9*Test_Fixture<19|96R9> 88e67 34|18r49
+80U14*Set_Up
+83U14*Tear_Down
+X 32 ropes.ads
+19K9*Ropes 189e10 34|4r9 22r5 35|5r14 36r5
+77r5 Rope_Pool{57|21R10} 35|15r70 22m9 22r9 24r12 29r60 31m13 31r13
+X 33 ropes-tests.ads
+6K15*Tests 32|19k9 33|36e16 34|4r15 22r11 35|5r20 36r11
+X 34 ropes-tests-memory_check.ads
+4K21*Memory_Check 33|6k15 34|22l17 22e29 35|5b26 36l17 36t29
+7R14 TCase<21|44R9> 19|101p14 104p14 107p13 113p13 21|47p13 50p13 53p14 57p14
+. 60p14 67p14 34|10r33 35|14r13
+8k13*Memory_Case 7z14 15l9 15e20 35|9b18 18l9 18t20
+10R14*Memory_Case<7R14> 19|101p14 104p14 107p13 113p13 21|47p13 50p13 57p14
+. 60p14 67p14 34|10e55 13P19 13r40 35|12r40
+13U19*Run_Test<21|53p14> 13=29 35|12b19 16l13 16t21
+13r29 T{10R14} 35|12b29 14m19 14r19
+18R14 Fixture<23|78R9> 19|101p14 104p14 107p13 113p13 23|80p14 83p14 34|19r41
+. 20r41 35|20r41
+19U24 Test 19=30 35|23s9
+19*30 T{18R14}
+20u15*Check_Fixture 20=30 35|20b15 34l9 34t22
+20*30 T{18R14} 35|20b30 23m15
+X 35 ropes-tests-memory_check.adb
+28a13 Message{string} 32r39
+X 57 tracking_pools.ads
+14K9*Tracking_Pools 35|3r6 15r35 29r25 57|52e19
+46U15*Clear_Counts 35|22s19 31s23
+50V14*Is_Balanced{boolean} 35|24s22
+X 59 tracking_pools-allocation_message.adb
+14V25*Allocation_Message{string} 35|3w21 15s50 29s40 57|14k9
+

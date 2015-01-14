@@ -1,0 +1,47 @@
+V "GNAT Lib v2012"
+A -gnat2005
+A -gnato
+A -gnata
+A -gnatwa
+A -gnatVa
+A -gnatA
+P ZX
+R nnnnnnnnnnnvvnnnnnvnnvnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnvnnnvnnvnnnnnnnnnnnnnn
+
+U aunit.tests%s		aunit-tests.ads		6b6cea8f EE OO PF PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W aunit%s		aunit.adb		aunit.ali
+W system%s		system.ads		system.ali
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+W system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+D ada.ads		20120510125802 3ffc8e18
+D a-except.ads		20120510125752 ec1b44c1
+D a-finali.ads		20120510125752 52ecdc1b
+D a-stream.ads		20120510125756 2ca4ee37
+D a-tags.ads		20120510125758 6c0509d0
+D a-unccon.ads		20120510125800 f9eb8f06
+D aunit.ads		20121010001822 76cdf7c6
+D aunit-tests.ads	20121010001822 1da11d49
+D system.ads		20120510125846 6daf90c4
+D s-exctab.ads		20120510125824 66e51330
+D s-finmas.ads		20120510125824 b95bb341
+D s-finroo.ads		20120510125824 4ff27390
+D s-parame.ads		20120510125832 b6e20cc0
+D s-pooglo.ads		20120510125832 542f33d0
+D s-soflin.ads		20120510125832 24c8153c
+D s-stache.ads		20120510125834 596fc1b4
+D s-stalib.ads		20120510125834 f78bcf95
+D s-stoele.ads		20120510125834 facd7d98
+D s-stoele.adb		20120510125834 afc5dc80
+D s-stopoo.ads		20120510125834 7b8fbeee
+D s-traent.ads		20120510125838 5221ee41
+X 7 aunit.ads
+34K9*AUnit 48e10 8|36r9 45r5
+X 8 aunit-tests.ads
+36K15*Tests 7|34k9 8|45l11 45e16
+38H9*Test 39r35 43c9 43e52
+39P9*Test_Access(38R9)
+

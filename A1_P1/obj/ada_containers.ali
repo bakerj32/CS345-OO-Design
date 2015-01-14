@@ -1,0 +1,19 @@
+V "GNAT Lib v2012"
+A -gnat2005
+A -gnato
+A -gnata
+A -gnatwa
+A -gnatVa
+A -gnatA
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnn
+
+U ada_containers%s	ada_containers.ads	11329e00 NE OO PU PK
+
+D ada_containers.ads	20121010001822 11329e00
+D system.ads		20120510125846 6daf90c4
+X 1 ada_containers.ads
+16K9*Ada_Containers 22l5 22e19
+19M9*Hash_Type
+20I9*Count_Type<integer>
+

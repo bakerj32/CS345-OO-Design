@@ -1,0 +1,53 @@
+V "GNAT Lib v2012"
+A -gnat2005
+A -gnato
+A -gnata
+A -gnatwa
+A -gnatVa
+A -gnatA
+P ZX
+R nnnnnnnnnnnvvnnnnnvnnvnnnnvnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnvnnnvnnvnnnnnnnnnnnnnn
+
+U aunit.reporter%s	aunit-reporter.ads	8979db55 EE OO PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.streams%s		a-stream.ads		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W aunit%s		aunit.adb		aunit.ali
+W aunit.test_results%s	aunit-test_results.adb	aunit-test_results.ali
+W system%s		system.ads		system.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+D ada.ads		20120510125802 3ffc8e18
+D a-calend.ads		20120510125748 d86d6c8c
+D a-except.ads		20120510125752 ec1b44c1
+D a-stream.ads		20120510125756 2ca4ee37
+D a-tags.ads		20120510125758 6c0509d0
+D a-unccon.ads		20120510125800 f9eb8f06
+D ada_containers.ads	20121010001822 11329e00
+D ada_containers-aunit_lists.ads  20121010001822 d9ebc89a
+D aunit.ads		20121010001822 76cdf7c6
+D aunit-reporter.ads	20121010001822 e8ac6b5a
+D aunit-test_results.ads  20121010001822 171847c9
+D aunit-time_measure.ads  20121010001822 58355f18
+D system.ads		20120510125846 6daf90c4
+D s-exctab.ads		20120510125824 66e51330
+D s-parame.ads		20120510125832 b6e20cc0
+D s-soflin.ads		20120510125832 24c8153c
+D s-stache.ads		20120510125834 596fc1b4
+D s-stalib.ads		20120510125834 f78bcf95
+D s-stoele.ads		20120510125834 facd7d98
+D s-stoele.adb		20120510125834 afc5dc80
+D s-traent.ads		20120510125838 5221ee41
+X 9 aunit.ads
+34K9*AUnit 48e10 10|32r6 32r30 34r9 44r5
+X 10 aunit-reporter.ads
+34K15*Reporter 9|34k9 10|44l11 44e19
+36H9*Reporter 36e48 38p14 39r16
+38x14*Report 39>7 40=7
+39r7 Engine{36R9}
+40c7 R<11|40R9>
+X 11 aunit-test_results.ads
+38K15*Test_Results 10|32w12 32r36 11|146e23
+40R9*Result 10|40r23 11|144e14
+

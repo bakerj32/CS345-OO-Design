@@ -1,0 +1,68 @@
+V "GNAT Lib v2012"
+A -gnat2005
+A -gnato
+A -gnata
+A -gnatwa
+A -gnatVa
+A -gnatA
+P ZX
+R nnnnnnnvnvnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnvnnvnnnnnnnnnnnnnn
+
+U aunit.time_measure%b	aunit-time_measure.adb	c4150d4d NE OO PK
+W aunit%s		aunit.adb		aunit.ali
+
+U aunit.time_measure%s	aunit-time_measure.ads	f695c452 BN EE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+W aunit%s		aunit.adb		aunit.ali
+
+D ada.ads		20120510125802 3ffc8e18
+D a-calend.ads		20120510125748 d86d6c8c
+D a-unccon.ads		20120510125800 f9eb8f06
+D aunit.ads		20121010001822 76cdf7c6
+D aunit-time_measure.ads  20121010001822 58355f18
+D aunit-time_measure.adb  20121010001822 9c205255
+D system.ads		20120510125846 6daf90c4
+D s-exctab.ads		20120510125824 66e51330
+D s-stalib.ads		20120510125834 f78bcf95
+X 1 ada.ads
+16K9*Ada 19e8 5|32r6 37r15 38r15 43r43 44r43 6|40r18 49r17 57r16
+X 2 a-calend.ads
+36K13*Calendar 375e17 5|32w10 37r19 38r19 43r47 44r47 6|40r22 49r21 57r20
+38I9*Time 5|37r28 38r28 6|57r29
+52V13*Clock{38I9} 6|40s31 49s30
+74V13*Time_Of{38I9} 5|43s56 44s56
+97V14*"-"{duration} 6|59s37
+X 4 aunit.ads
+34K9*AUnit 48e10 5|34r9 65r5 6|32r14 137r5
+X 5 aunit-time_measure.ads
+34K15*Time_Measure 4|34k9 5|65l11 65e23 6|32b20 137l11 137t23
+36R9*Time 39e14 43r25 46r40 49r39 52r30 6|38r40 47r39 56r30
+37i7*Start{2|38I9} 43m34 6|40m9 59r41
+38i7*Stop{2|38I9} 44m34 6|49m9 59r32
+41O9*AUnit_Duration 52r43 58r41 63c9 6|56r43 59r14 66r41
+43r4*Null_Time{36R9}
+46U14*Start_Measure 46=29 6|38b14 41l8 41t21
+46r29 T{36R9} 6|38b29 40m7
+49U14*Stop_Measure 49=28 6|47b14 50l8 50t20
+49r28 T{36R9} 6|47b28 49m7
+52V13*Get_Measure{41O9} 52>26 6|56b13 60l8 60t19
+52r26 T{36R9} 6|56b26 59r30 59r39
+56U22 Put 56>27 6|84s10 108s10 115s13 127s10
+56i27 I{integer}
+57U22 Put 57>27 6|78s16 109s10 122s10 132s7 134s7
+57s27 S{string}
+58u14*Gen_Put_Measure 58>31 6|66b14 135l8 135t23
+58o31 Measure{41O9} 6|66b31 68r40
+X 6 aunit-time_measure.adb
+67i7 H{integer} 90m10 90r15 107r10 108r15
+67i10 M{integer} 95m10 95r15 113r10 115r18 119r18
+67i13 S{integer} 100m10 100r15 127r15 129r15
+68o7 T{duration} 89r13 91m10 91r15 94r13 96m10 96r15 99r13 101m10 101r15
+. 133r21
+69b7 Force{boolean} 105m7 110m10 113r24 114r17 123m10 126r14
+71U17 Put 71>22 71>35 74b17 85l11 85t14 119s13 129s10 133s7
+71i22 N{integer} 74b22 77r16 84r15
+71i35 Length{integer} 74b35 76r34
+76i14 Dig{integer} 77r24
+

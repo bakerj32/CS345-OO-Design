@@ -1,0 +1,312 @@
+V "GNAT Lib v2012"
+A -gnat2005
+A -gnato
+A -gnata
+A -gnatwa
+A -gnatVa
+A -gnatA
+P SS ZX
+R nnvvnnnnnnvvvnnnnnvnnvvnnnvnnnnvnnvnnnnnnvnnvnnnnnnnnnnvnnvnnnnvnnnvnnvnnnnnnnnnnnnnn
+
+U ropes.tests.concat_impl%b  ropes-tests-concat_impl.adb  1e45280c OO PF PK
+Z ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+Z ada.unchecked_conversion%s
+W aunit%s		aunit.adb		aunit.ali
+W aunit.assertions%s	aunit-assertions.adb	aunit-assertions.ali
+Z aunit.memory%s	aunit-memory.adb	aunit-memory.ali
+Z aunit.memory.utils%s	aunit-memory-utils.adb	aunit-memory-utils.ali
+Z aunit.simple_test_cases%s  aunit-simple_test_cases.adb  aunit-simple_test_cases.ali
+W aunit.test_caller%s	aunit-test_caller.adb	aunit-test_caller.ali  AD
+W aunit.test_fixtures%s	aunit-test_fixtures.adb	aunit-test_fixtures.ali
+W interfaces%s		interfac.ads		interfac.ali
+W ropes%s		ropes.adb		ropes.ali
+W ropes.tests%s		ropes-tests.adb		ropes-tests.ali
+W ropes.tests.memory_check%s  ropes-tests-memory_check.adb  ropes-tests-memory_check.ali  ED
+W system%s		system.ads		system.ali
+W system.assertions%s	s-assert.adb		s-assert.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+W system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+
+U ropes.tests.concat_impl%s  ropes-tests-concat_impl.ads  430eebec EE NE OO PK
+W aunit%s		aunit.adb		aunit.ali
+W aunit.test_suites%s	aunit-test_suites.adb	aunit-test_suites.ali
+W ropes.tests%s		ropes-tests.adb		ropes-tests.ali
+
+D ada.ads		20120510125802 3ffc8e18
+D a-calend.ads		20120510125748 d86d6c8c
+D a-charac.ads		20120510125748 2d3ec45b
+D a-chlat1.ads		20120510125748 2825df20
+D a-except.ads		20120510125752 ec1b44c1
+D a-finali.ads		20120510125752 52ecdc1b
+D a-ioexce.ads		20120510125752 8b9de6cd
+D a-stream.ads		20120510125756 2ca4ee37
+D a-string.ads		20120510125756 90ac6797
+D a-strfix.ads		20120510125756 d07c346e
+D a-strmap.ads		20120510125756 9cb836fb
+D a-tags.ads		20120510125758 6c0509d0
+D a-textio.ads		20120510125800 386df5d4
+D a-unccon.ads		20120510125800 f9eb8f06
+D a-uncdea.ads		20120510125800 f15a5ed1
+D ada_containers.ads	20121010001822 11329e00
+D ada_containers-aunit_lists.ads  20121010001822 d9ebc89a
+D aunit.ads		20121010001822 76cdf7c6
+D aunit-assertions.ads	20121010001822 b7f9ecd6
+D aunit-memory.ads	20121010001822 a0315146
+D aunit-memory-utils.ads  20121010001822 5b1e3d11
+D aunit-memory-utils.adb  20121010001822 c00242e3
+D aunit-options.ads	20121010001822 2fedf7fb
+D aunit-simple_test_cases.ads  20121010001822 4111c32f
+D aunit-test_caller.ads	20121010001822 956cfce4
+D aunit-test_caller.adb	20121010001822 0f783ccd
+D aunit-test_filters.ads  20121010001822 f10b2127
+D aunit-test_fixtures.ads  20121010001822 faadeab5
+D aunit-test_results.ads  20121010001822 171847c9
+D aunit-test_suites.ads	20121010001822 6821dc24
+D aunit-tests.ads	20121010001822 1da11d49
+D aunit-time_measure.ads  20121010001822 58355f18
+D gnat.ads		20120510125812 fd2ad2f1
+D g-souinf.ads		20120510125812 e66ff50e
+D interfac.ads		20120510125814 129923ea
+D i-cstrea.ads		20120510125814 1bd72c32
+D ropes.ads		20121012224220 21fc6ff1
+D ropes-tests.ads	20121010001822 4fa13b70
+D ropes-tests-concat_impl.ads  20121010001822 648e0cb8
+D ropes-tests-concat_impl.adb  20121010001822 5ae74114
+D ropes-tests-memory_check.ads  20121010001822 f8149f27
+D ropes-tests-memory_check.adb  20121010001822 a4172cc7
+D system.ads		20120510125846 6daf90c4
+D s-assert.ads		20120510125818 a3a4e6ab
+D s-conca2.ads		20120510125822 fbd0f2fc
+D s-crtl.ads		20120510125824 ac77b159
+D s-exctab.ads		20120510125824 66e51330
+D s-ficobl.ads		20120510125824 443b9d66
+D s-finmas.ads		20120510125824 b95bb341
+D s-finroo.ads		20120510125824 4ff27390
+D s-imgint.ads		20120510125826 02dbe0c2
+D s-parame.ads		20120510125832 b6e20cc0
+D s-pooglo.ads		20120510125832 542f33d0
+D s-poosiz.ads		20120510125832 9d8c569f
+D s-secsta.ads		20120510125832 eea35a36
+D s-soflin.ads		20120510125832 24c8153c
+D s-stache.ads		20120510125834 596fc1b4
+D s-stalib.ads		20120510125834 f78bcf95
+D s-stoele.ads		20120510125834 facd7d98
+D s-stoele.adb		20120510125834 afc5dc80
+D s-stopoo.ads		20120510125834 7b8fbeee
+D s-stposu.ads		20120510125834 197be7e5
+D s-stratt.ads		20120510125834 aedef97e
+D s-traent.ads		20120510125838 5221ee41
+D s-unstyp.ads		20120510125838 6ae15c76
+D s-wchcon.ads		20120510125840 bfeb2e3d
+D tracking_pools.ads	20121010001822 098684cf
+D tracking_pools-allocation_message.adb  20121010001822 81a1c3fe
+D tracking_pools-allocation_message.adb  20121010001822 81a1c3fe
+X 18 aunit.ads
+34K9*AUnit 48e10 39|1r6 8r40 9r40 40|1r6 2r6 3r6 3r28 10r13 364r40 371r40
+X 19 aunit-assertions.ads
+44K15*Assertions 155e21 40|3w12 3r34
+48U14*Assert 40|116s25 123s25 129s21 170s13 180s13 181s13 253s13
+101U14*Init_Test
+104U14*Clear_Failures
+107V13*Has_Failures{boolean}
+110R9*Failure_Iter
+113V13*First_Failure{110R9}
+X 25 aunit-test_caller.ads
+78k15*Test_Caller 121e22 40|2w12 79r39
+80R9*Test_Case<24|44R9>
+81P9*Test_Case_Access(80R9[40|79])
+85V13*Create{81P9[40|79]} 40|308s41[79] 310s41[79] 313s41[79] 315s41[79]
+. 317s41[79] 319s41[79] 321s41[79] 323s41[79] 325s41[79] 328s41[79] 330s41[79]
+. 332s41[79] 334s41[79] 336s41[79] 338s41[79] 340s41[79] 342s41[79] 344s41[79]
+. 346s41[79] 348s41[79] 350s41[79] 352s41[79]
+112P9 Fixture_Access(40|17R22)
+X 26 aunit-test_caller.adb
+38V13 New_Fixture[21|40]{25|112P9[40|79]} 22|38b13[40|79]
+66P12 Access_Type(25|80R9[40|79])
+67V16 Alloc[21|40]{66P12[40|79]} 22|38b13[40|79]
+X 28 aunit-test_fixtures.ads
+76K15*Test_Fixtures 90e24 40|1w12 17r37
+78R9*Test_Fixture<19|96R9> 88e67 40|17r51
+X 30 aunit-test_suites.ads
+41K15*Test_Suites 86e22 39|1w12 8r46 9r46 40|81r46 83r55 305r46 356r55 364r46
+. 365r31 365r68 371r46 372r31 372r68
+43R9*Test_Suite<31|38R9> 84e14 40|365r80 372r80
+44P9*Access_Test_Suite(43R9) 39|8r58 9r58 40|81r58 83r67 305r58 356r67 364r58
+. 365r43 371r58 372r43
+48U14*Add_Test 40|308s31 310s31 313s31 315s31 317s31 319s31 321s31 323s31
+. 325s31 328s31 330s31 332s31 334s31 336s31 338s31 340s31 342s31 344s31 346s31
+. 348s31 350s31 352s31
+X 37 ropes.ads
+19K9*Ropes 189e10 39|3r9 11r5 40|5r6 8r14 378r5
+26R10*Rope 88e15 40|107r67 114r46 121r46 127r42 164r34 176r34 177r31 248r34
+. 249r22 250r34
+30V14*Length{natural} 40|116s43 181s28
+36V14*Element{character} 40|129s39 169s28
+41V14*To_Rope{26R10} 40|109s28 109s56
+46V14*To_String{string} 40|123s43 180s28
+54V15*"&"{26R10} 40|109s54
+63V14*Slice{26R10} 40|177s49 252s33
+X 38 ropes-tests.ads
+6K15*Tests 37|19k9 38|36e16 39|3r15 11r11 40|5r12 8r20 378r11
+20V18 Make_Test_String{string} 40|91s54
+25r5 Rope_Test_Pool{67|21R10} 40|104r28
+32P10 Test_String_Access(string) 40|18r36 19r33 20r33
+34U15 Free[15|20] 40|101s21 102s25 103s25
+X 39 ropes-tests-concat_impl.ads
+3K21*Concat_Impl 38|6k15 39|11l17 11e28 40|8b26 378l17 378t28
+5a9*Ext_Prefix{string} 40|308r49 310r49 313r49 315r49 317r49 319r49 321r49
+. 323r49 325r49 328r49 330r49 332r49 334r49 336r49 338r49 340r49 342r49 344r49
+. 346r49 348r49 350r49 352r49
+6a9*Int_Prefix{string}
+8V18*External_Suite{30|44P9} 40|364b18 369l13 369t27
+9V18*Internal_Suite{30|44P9} 40|371b18 376l13 376t27
+X 40 ropes-tests-concat_impl.adb
+12K17 Concat_Fixture 85l13 85e27 87b22 362l13 362t27 367r17 374r17
+14i13*Concat_Len{positive} 15r47 91r72 95r83 116r52 154r77 159r61 165r42
+. 179r51 207r96 211r58 218r77 218r95 223r73 233r90 238r100 243r52 252r40
+15i13*Concat_Mid{positive} 94r70 95r65 139r58 144r58 149r61 154r60 186r66
+. 190r45 197r65 197r82 202r59 207r62 207r79 211r41 218r60 223r56 228r67 228r84
+. 233r60 233r73 238r65 238r83
+17R22*Fixture<28|78R9> 19|101p14 104p14 107p13 113p13 40|21e27 24P27 24r46
+. 27P27 27r49 35p27 35r51 37p27 37r54 39p19 39r50 41p19 41r52 43p19 43r52
+. 45p19 45r55 47p19 47r53 49p19 49r48 51p19 51r50 53p19 53r53 55p19 55r51
+. 57p19 57r51 59p19 59r51 61p19 61r54 63p19 63r52 65p19 65r52 67p19 67r52
+. 69p19 69r63 71p19 71r61 73p19 73r61 75p19 75r46 77p19 77r48 79r52 90r46
+. 99r49 107r51 112r51 119r54 126r48 132r50 137r52 142r52 147r55 152r53 157r48
+. 162r50 175r38 184r53 189r51 195r51 200r51 205r54 210r52 216r52 221r52 226r63
+. 231r61 236r61 241r46 246r48 261r32 263r32 265r32 267r32 269r32 271r32 273r32
+. 275r32 277r32 279r32 281r32 283r32 285r32 287r32 289r32 291r32 293r32 295r32
+. 297r32 299r32 301r32 303r32
+18p21*Test_Str_All{38|32P10} 93m23 101m29 101r29 123r57 129r59 180r42
+19p21*Test_Str1{38|32P10} 94m27 102m33 102r33 109r39
+20p21*Test_Str2{38|32P10} 95m27 103m33 103r33 109r67
+24U27*Set_Up<28|80p14> 24=35 90b27 96l21 96t27
+24r35 T{17R22} 90b35 93m21 94m25 95m25
+27U27*Tear_Down<28|83p14> 27=38 99b27 105l21 105t30
+27r38 T{17R22} 99b38 101m27 101r27 102m31 102r31 103m31 103r31
+35U27*Test_Length 35=40 112b27 117l21 117t32 261r41 263r41
+35r40 T{17R22} 112b40 114r72
+37U27*Test_To_String 37=43 119b27 124l21 124t35
+37r43 T{17R22} 119b43 121r72 123r55
+39U19*Test_Element_Begin 39=39 132b19 135l13 135t31 265r41
+39r39 T{17R22} 132b39 134r27
+41U19*Test_Element_MidLeft 41=41 137b19 140l13 140t33 267r41
+41r41 T{17R22} 137b41 139r27
+43U19*Test_Element_EndLeft 43=41 142b19 145l13 145t33 269r41
+43r41 T{17R22} 142b41 144r27
+45U19*Test_Element_BeginRight 45=44 147b19 150l13 150t36 271r41
+45r44 T{17R22} 147b44 149r27
+47U19*Test_Element_MidRight 47=42 152b19 155l13 155t34 273r41
+47r42 T{17R22} 152b42 154r27
+49U19*Test_Element_End 49=37 157b19 160l13 160t29 275r41
+49r37 T{17R22} 157b37 159r27
+51U19*Test_Element_Error 51=39 162b19 173l13 173t31 277r41
+51r39 T{17R22} 162b39 164r60
+53U19*Test_Slice_Left_Begin 53=42 184b19 187l13 187t34 279r41
+53r42 T{17R22} 184b42 186r25
+55U19*Test_Slice_Left_Mid 55=40 189b19 193l13 193t32 281r41
+55r40 T{17R22} 189b40 192r25
+57U19*Test_Slice_Left_End 57=40 195b19 198l13 198t32 283r41
+57r40 T{17R22} 195b40 197r25
+59U19*Test_Slice_Left_All 59=40 200b19 203l13 203t32 285r41
+59r40 T{17R22} 200b40 202r25
+61U19*Test_Slice_Right_Begin 61=43 205b19 208l13 208t35 287r41
+61r43 T{17R22} 205b43 207r25
+63U19*Test_Slice_Right_Mid 63=41 210b19 214l13 214t33 289r41
+63r41 T{17R22} 210b41 213r25
+65U19*Test_Slice_Right_End 65=41 216b19 219l13 219t33 291r41
+65r41 T{17R22} 216b41 218r25
+67U19*Test_Slice_Right_All 67=41 221b19 224l13 224t33 293r41
+67r41 T{17R22} 221b41 223r25
+69U19*Test_Slice_Left_Mid_Right_Begin 69=52 226b19 229l13 229t44 295r41
+69r52 T{17R22} 226b52 228r25
+71U19*Test_Slice_Left_End_Right_Mid 71=50 231b19 234l13 234t42 297r41
+71r50 T{17R22} 231b50 233r25
+73U19*Test_Slice_Left_Mid_Right_Mid 73=50 236b19 239l13 239t42 299r41
+73r50 T{17R22} 236b50 238r25
+75U19*Test_Slice_All 75=35 241b19 244l13 244t27 301r41
+75r35 T{17R22} 241b35 243r25
+77U19*Test_Slice_Error 77=37 246b19 256l13 256t29 303r41
+77r37 T{17R22} 246b37 248r60
+79K25*Caller[25|78] 306r29 357r29
+81U27*Add_Tests 81>38 305b27 354l21 354t30 367s32
+81p38 Suite{30|44P9} 305b38 308r25 310r25 313r25 315r25 317r25 319r25 321r25
+. 323r25 325r25 328r25 330r25 332r25 334r25 336r25 338r25 340r25 342r25 344r25
+. 346r25 348r25 350r25 352r25
+83U27*Add_Internal_Tests 83>47 356b27 360l21 360t39 374s32
+83p47 Suite{30|44P9} 356b47
+91a21 Base_String{string} 93r51 94r52 95r52
+107V26 Make_Test_Concat{37|26R10} 107b26 107>44 110l21 110t37 114s54 121s54
+. 127s50 164s42 176s42 248s42
+107r44 T{17R22} 109r37 109r65
+113a25 Message{string} 116r64
+114r25 Test_Rope{37|26R10} 116r33
+120a25 Message{string} 123r75
+121r25 Test_Rope{37|26R10} 123r33
+126U27 Element_Test 126b27 126>41 126>57 126>77 130l21 130t33 134s13 139s13
+. 144s13 149s13 154s13 159s13
+126r41 T{17R22} 127r68 129r57
+126s57 Prefix{string} 129r81
+126i77 Index{positive} 129r48 129r73
+127r21 Test_Rope{37|26R10} 129r29
+163a13 Message{string} 170r28
+164r13 Test_Rope{37|26R10} 169r18
+165i13 Index{positive} 169r37
+166e13 C{character} 167r34 169m13
+175U19 Slice_Test 175b19 175>31 175>47 175>67 175>72 182l13 182t23 186s13
+. 192s13 197s13 202s13 207s13 213s13 218s13 223s13 228s13 233s13 238s13 243s13
+175r31 T{17R22} 176r60 180r40
+175s47 Prefix{string} 180r70 181r53
+175i67 Low{positive} 177r56 179r28 180r56 181r44
+175i72 High{positive} 177r61 179r34 179r43 180r63 181r37
+176r13 Test_Rope{37|26R10} 177r39
+177r13 Sliced{37|26R10} 180r21 181r21
+190i13 Mid{positive} 192r57 192r66
+211i13 Mid{positive} 213r52 213r61
+247a13 Message{string} 253r28
+248r13 Test_Rope{37|26R10} 252r23
+249r13 Result{37|26R10} 252m13
+260U19 M_Test_Length[41|20] 309r73 42|20b15
+262U19 M_Test_To_String[41|20] 311r73 42|20b15
+264U19 M_Test_Element_Begin[41|20] 314r73 42|20b15
+266U19 M_Test_Element_MidLeft[41|20] 316r73 42|20b15
+268U19 M_Test_Element_EndLeft[41|20] 318r73 42|20b15
+270U19 M_Test_Element_BeginRight[41|20] 320r73 42|20b15
+272U19 M_Test_Element_MidRight[41|20] 322r73 42|20b15
+274U19 M_Test_Element_End[41|20] 324r73 42|20b15
+276U19 M_Test_Element_Error[41|20] 326r73 42|20b15
+278U19 M_Test_Slice_Left_Begin[41|20] 329r73 42|20b15
+280U19 M_Test_Slice_Left_Mid[41|20] 331r73 42|20b15
+282U19 M_Test_Slice_Left_End[41|20] 333r73 42|20b15
+284U19 M_Test_Slice_Left_All[41|20] 335r73 42|20b15
+286U19 M_Test_Slice_Right_Begin[41|20] 337r73 42|20b15
+288U19 M_Test_Slice_Right_Mid[41|20] 339r73 42|20b15
+290U19 M_Test_Slice_Right_End[41|20] 341r73 42|20b15
+292U19 M_Test_Slice_Right_All[41|20] 343r73 42|20b15
+294U19 M_Test_Slice_Left_Mid_Right_Begin[41|20] 345r73 42|20b15
+296U19 M_Test_Slice_Left_End_Right_Mid[41|20] 347r73 42|20b15
+298U19 M_Test_Slice_Left_Mid_Right_Mid[41|20] 349r73 42|20b15
+300U19 M_Test_Slice_All[41|20] 351r73 42|20b15
+302U19 M_Test_Slice_Error[41|20] 353r73 42|20b15
+365p13 Result{30|44P9} 367r43 368r24
+372p13 Result{30|44P9} 374r52 375r24
+X 41 ropes-tests-memory_check.ads
+4K21*Memory_Check 40|5w18 258r21 41|22e29
+7R14 TCase<24|44R9>
+20u15*Check_Fixture 40|261r17 263r17 265r17 267r17 269r17 271r17 273r17 275r17
+. 277r17 279r17 281r17 283r17 285r17 287r17 289r17 291r17 293r17 295r17 297r17
+. 299r17 301r17 303r17
+X 67 tracking_pools.ads
+50V14*Is_Balanced{boolean} 40|104s43
+X 69 tracking_pools-allocation_message.adb
+14V25*Allocation_Message{string} 67|14k9
+

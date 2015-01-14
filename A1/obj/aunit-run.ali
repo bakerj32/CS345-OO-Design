@@ -1,0 +1,123 @@
+V "GNAT Lib v2012"
+A -gnat2005
+A -gnato
+A -gnata
+A -gnatwa
+A -gnatVa
+A -gnatA
+P ZX
+R nnnnnnnnnnnvvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnvnnnnvnnnnnnvnnnnnnnnnnnnnn
+
+U aunit.run%b		aunit-run.adb		cc4eaf2e NE OO PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W aunit%s		aunit.adb		aunit.ali
+W aunit.test_suites%s	aunit-test_suites.adb	aunit-test_suites.ali
+W aunit.time_measure%s	aunit-time_measure.adb	aunit-time_measure.ali
+W interfaces%s		interfac.ads		interfac.ali
+
+U aunit.run%s		aunit-run.ads		fa67f913 BN EE NE OO PK
+W aunit%s		aunit.adb		aunit.ali
+W aunit.options%s	aunit-options.ads	aunit-options.ali
+W aunit.reporter%s	aunit-reporter.ads	aunit-reporter.ali
+W aunit.test_results%s	aunit-test_results.adb	aunit-test_results.ali
+W aunit.test_suites%s	aunit-test_suites.adb	aunit-test_suites.ali
+
+D ada.ads		20120510125802 3ffc8e18
+D a-calend.ads		20120510125748 d86d6c8c
+D a-except.ads		20120510125752 ec1b44c1
+D a-finali.ads		20120510125752 52ecdc1b
+D a-stream.ads		20120510125756 2ca4ee37
+D a-tags.ads		20120510125758 6c0509d0
+D a-unccon.ads		20120510125800 f9eb8f06
+D ada_containers.ads	20121010001822 11329e00
+D ada_containers-aunit_lists.ads  20121010001822 d9ebc89a
+D aunit.ads		20121010001822 76cdf7c6
+D aunit-assertions.ads	20121010001822 b7f9ecd6
+D aunit-options.ads	20121010001822 2fedf7fb
+D aunit-reporter.ads	20121010001822 e8ac6b5a
+D aunit-run.ads		20121010001822 34d20999
+D aunit-run.adb		20121010001822 c888258b
+D aunit-simple_test_cases.ads  20121010001822 4111c32f
+D aunit-test_filters.ads  20121010001822 f10b2127
+D aunit-test_results.ads  20121010001822 171847c9
+D aunit-test_suites.ads	20121010001822 6821dc24
+D aunit-tests.ads	20121010001822 1da11d49
+D aunit-time_measure.ads  20121010001822 58355f18
+D gnat.ads		20120510125812 fd2ad2f1
+D g-souinf.ads		20120510125812 e66ff50e
+D interfac.ads		20120510125814 129923ea
+D system.ads		20120510125846 6daf90c4
+D s-exctab.ads		20120510125824 66e51330
+D s-finmas.ads		20120510125824 b95bb341
+D s-finroo.ads		20120510125824 4ff27390
+D s-parame.ads		20120510125832 b6e20cc0
+D s-pooglo.ads		20120510125832 542f33d0
+D s-soflin.ads		20120510125832 24c8153c
+D s-stache.ads		20120510125834 596fc1b4
+D s-stalib.ads		20120510125834 f78bcf95
+D s-stoele.ads		20120510125834 facd7d98
+D s-stoele.adb		20120510125834 afc5dc80
+D s-stopoo.ads		20120510125834 7b8fbeee
+D s-traent.ads		20120510125838 5221ee41
+X 10 aunit.ads
+34K9*AUnit 48e10 14|32r6 33r6 34r6 35r6 38r9 41r34 43r18 44r18 44r49 47r34
+. 49r18 50r25 51r18 51r49 59r34 61r18 62r18 62r49 65r5 15|32r6 33r6 33r29
+. 35r14 40r18 41r18 52r18 53r18 64r7 72r7 80r18 81r18 81r49 96r18 97r18 97r49
+. 113r18 114r25 115r18 115r49 123r5
+40E9*Status 40e37 14|63r14 15|42r22 54r22 84r17 98r14 101r17 117r17
+X 12 aunit-options.ads
+34K15*Options 48e18 14|32w12 44r24 44r55 51r24 51r55 62r24 62r55 15|40r24
+. 52r24 81r24 81r55 97r24 97r55 115r24 115r55
+36R9*AUnit_Options 40e14 14|44r32 51r32 62r32 15|40r32 52r32 81r32 97r32
+. 115r32
+37b7*Global_Timer{boolean} 15|59r18 67r18
+43r4*Default_Options{36R9} 14|44r63 51r63 62r63 15|81r63 97r63 115r63
+X 13 aunit-reporter.ads
+34K15*Reporter 44e19 14|33w12 43r24 49r24 61r24 15|41r24 53r24 72r13 80r24
+. 96r24 113r24
+36H9*Reporter 36e48 14|43r33 49r33 61r33 15|41r33 53r33 80r33 96r33 113r33
+38x14*Report 15|72R22
+X 14 aunit-run.ads
+38K15*Run 10|34k9 14|65l11 65e14 15|35b20 123l11 123t14
+41V21 Suite{19|44P9} 15|88s12
+42u14*Test_Runner 43>7 44>7 15|79b14 89l8 89t19
+43c7 Reporter<13|36R9> 15|80b7 88r37
+44r7 Options{12|36R9} 15|81b7 88r28
+47V21 Suite{19|44P9} 15|120s12
+48u14*Test_Runner_With_Results 49>7 50=7 51>7 15|112b14 121l8 121t32
+49c7 Reporter<13|36R9> 15|113b7 120r37
+50c7 Results<18|40R9> 15|114b7 120m19
+51r7 Options{12|36R9} 15|115b7 120r28
+59V21 Suite{19|44P9} 15|104s12
+60v13*Test_Runner_With_Status 61>7 62>7 15|95b13 106l8 106t31
+61c7 Reporter<13|36R9> 15|96b7 104r37
+62r7 Options{12|36R9} 15|97b7 104r28
+X 15 aunit-run.adb
+37U14 Run 38>7 39=7 40>7 41>7 42<7 49b14 73l8 73t11 88s7 104s7 120s7
+38p7 Suite{19|44P9} 50b7 64r30
+39c7 Results<18|40R9> 51b7 64m46 69m36 72m40
+40r7 Options{12|36R9} 52b7 59r10 64r37 67r10
+41c7 Reporter<13|36R9> 53b7 72r30
+42e7 Outcome{10|40E9} 54b7 64m55
+56r7 Time{21|36R9} 60m38 60r38 68m37 68r37 69r45
+83r7 Results{18|40R9} 87m27 87r27 88m19 88r19
+84e7 Outcome{10|40E9} 85r28 88m47 88r47
+100r7 Results{18|40R9} 103m27 103r27 104m19 104r19
+101e7 Outcome{10|40E9} 104m47 104r47 105r14
+117e7 Outcome{10|40E9} 118r28 120m47 120r47
+X 18 aunit-test_results.ads
+38K15*Test_Results 14|34w12 50r31 15|39r25 51r25 69r10 83r17 87r7 100r17
+. 103r7 114r31 18|146e23
+40R9*Result 14|50r44 15|39r38 51r38 83r30 100r30 114r44 18|144e14
+99U14*Set_Elapsed 15|69R23
+133U14*Clear 15|87s20 103s20
+X 19 aunit-test_suites.ads
+41K15*Test_Suites 14|35w12 41r40 47r40 59r40 15|33w12 33r35 64r13 19|86e22
+44P9*Access_Test_Suite(43R9) 14|41r52 47r52 59r52 15|38r18 50r18
+52U14*Run 15|64R25
+X 21 aunit-time_measure.ads
+34K15*Time_Measure 15|32w12 56r17 60r10 68r10 21|65e23
+36R9*Time 15|56r30 21|39e14
+46U14*Start_Measure 15|60s23
+49U14*Stop_Measure 15|68s23
+

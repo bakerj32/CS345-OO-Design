@@ -1,0 +1,176 @@
+V "GNAT Lib v2012"
+A -gnat2005
+A -gnato
+A -gnata
+A -gnatwa
+A -gnatVa
+A -gnatA
+P SS ZX
+R nnnvnnnnnnvnvnnnnnnnnnvnnnvnnnnvnnnnnnnnnvnnvnnnnnnnnnnvnnnnnnnvnnnvnnvnnnnnnnnnnnnnn
+
+U ropes.string_impl%b	ropes-string_impl.adb	6bf82e5a NE OO PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W interfaces%s		interfac.ads		interfac.ali
+W ropes%s		ropes.adb		ropes.ali
+W system%s		system.ads		system.ali
+W system.assertions%s	s-assert.adb		s-assert.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+
+U ropes.string_impl%s	ropes-string_impl.ads	06c05452 EE OO PF PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.streams%s		a-stream.ads		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ropes%s		ropes.adb		ropes.ali
+W system%s		system.ads		system.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+W system.strings.stream_ops%s  s-ststop.adb	s-ststop.ali
+
+D ada.ads		20120510125802 3ffc8e18
+D a-except.ads		20120510125752 ec1b44c1
+D a-finali.ads		20120510125752 52ecdc1b
+D a-stream.ads		20120510125756 2ca4ee37
+D a-tags.ads		20120510125758 6c0509d0
+D a-unccon.ads		20120510125800 f9eb8f06
+D a-uncdea.ads		20120510125800 f15a5ed1
+D interfac.ads		20120510125814 129923ea
+D ropes.ads		20121017214612 1dd53492
+D ropes-string_impl.ads	20121017014348 1b1560c0
+D ropes-string_impl.adb	20121017003126 70ed4e9a
+D system.ads		20120510125846 6daf90c4
+D s-assert.ads		20120510125818 a3a4e6ab
+D s-conca2.ads		20120510125822 fbd0f2fc
+D s-exctab.ads		20120510125824 66e51330
+D s-finmas.ads		20120510125824 b95bb341
+D s-finroo.ads		20120510125824 4ff27390
+D s-parame.ads		20120510125832 b6e20cc0
+D s-poosiz.ads		20120510125832 9d8c569f
+D s-secsta.ads		20120510125832 eea35a36
+D s-soflin.ads		20120510125832 24c8153c
+D s-stache.ads		20120510125834 596fc1b4
+D s-stalib.ads		20120510125834 f78bcf95
+D s-stoele.ads		20120510125834 facd7d98
+D s-stoele.adb		20120510125834 afc5dc80
+D s-stopoo.ads		20120510125834 7b8fbeee
+D s-stposu.ads		20120510125834 197be7e5
+D s-stratt.ads		20120510125834 aedef97e
+D s-string.ads		20120510125834 46b01415
+D s-ststop.ads		20120510125834 ee472be4
+D s-traent.ads		20120510125838 5221ee41
+D s-unstyp.ads		20120510125838 6ae15c76
+D tracking_pools.ads	20121010001822 098684cf
+X 9 ropes.ads
+19K9*Ropes 193e10 10|11r17 19r38 23r34 56r34 97r5 11|7r14 192r5
+81R10 Rope_Impl 107e14 10|19r44 23r40 56r40
+83P10 Rope_Impl_Access(104R10) 10|28r74 31r74 45r28 61r74 64r74 79r14 89r63
+. 94r59 11|10r74 12r28 21r74 23r29 53r14 58r20 74r74 79r39 89r39 98r74 103r39
+. 113r39 146r14 151r20 164r61 173r38 182r39
+104H10 Rope_Impl
+105i9*Ref_Count{natural} 11|12m71 23m72 79m82 89m82 103m82 113m82 173m81
+. 182m82
+106i9*Length{natural} 11|11r74 12m87 12r117 22r75 23m88 23r118 47r41 55r55
+. 56r38 76r31 78r85 79m98 79r128 88r49 89m98 89r128 100r31 102r85 103m98
+. 103r128 112r64 113m98 113r114 140r39 140r88 148r55 149r38 173m97 182m98
+109y14 "&"{83P10}
+110y14 "&"{83P10}
+116x15 Dispose
+119V14 Length{natural}
+124y14 Element{character}
+131x15 To_String
+142y14 Slice{83P10}
+150V14 Impl_Text_Contents{string}
+164U15 Inc_Ref_Count 11|15s9 57s13 82s17 91s17 106s17 115s17 150s13 175s17
+. 185s17
+186P10 String_Access(string) 10|20r13 24r11 11|11r21 22r22 78r32 102r32 181r32
+190U15 Free[7|20] 11|32s9
+X 10 ropes-string_impl.ads
+11K23*String_Impl 9|19k9 10|97l11 97e22 11|7b20 192l11 192t22
+17i5*Max_Small_String{natural} 57r21 11|76r41 100r41 165r34 170r33 173r142
+19H10*String_Impl<9|104R10> 9|109p14 110p14 116p15 119p14 124p14 131p15 142p14
+. 150p14 10|21e14
+20p9*S{9|186P10}
+23R9*Large_String_Impl<9|104R10> 9|119p14 10|25e14 28P14 28r32 31P14 31r48
+. 34P14 34r34 37P13 37r31 40P15 40r51 43P14 43r37 50P13 50r53 11|10r32 12r52
+. 21r48 23r53 30r35 36r32 44r51 51r37 64r54 79r63 103r63 182r63
+24p7*S{9|186P10} 11|12m125 14r25 14r32 14r48 23m126 25r24 25r32 25r49 32m17
+. 32r17 39r40 40r23 47r63 60r41 67r24 79m136 103m136 182m123
+28V14*"&"{9|83P10}<9|109p13> 28^18 28>51 11|10b14 18l9 18t11
+28p18 Left(23R9) 11|10b18 11r69 12r112 14r20 14r27 14r43 16r17
+28s51 Right{string} 11|10b51 11r54 12r97 14r58
+31V14*"&"{9|83P10}<9|110p13> 31>18 31^33 11|21b14 27l9 27t11
+31s18 Left{string} 11|21b18 22r55 23r98 25r59
+31p33 Right(23R9) 11|21b33 22r69 23r112 25r18 25r26 25r43
+34U14*Dispose<9|116p15> 34^23 11|16s9 30b15 33l8 33t15
+34p23 R(23R9) 11|30b24 32r15
+37V13*Element{character}<9|124p14> 37>22 37>50 11|36b14 41l8 41t15
+37r22 Source{23R9} 11|36b23 39r33 40r16
+37i50 Index{positive} 11|36b51 39r24 40r26
+40U15*To_String<9|131p15> 40^26 41=26 41>50 11|44b15 48l8 48t17
+40p26 Source(23R9) 11|44b26 47r34 47r56
+41s26 Target{string} 11|45b26 47m9
+41i50 Start{positive} 11|45b50 47r17 47r26
+43V14*Slice{9|83P10}<9|142p14> 43^21 44>21 44>37 11|51b14 61l8 61t13
+43p21 Source(23R9) 11|51b21 55r48 56r31 57r28 58r38 60r34
+44i21 Low{positive} 11|52b21 55r24 56r12 60r44
+44i37 High{natural} 11|52b37 55r31 55r40 56r24 60r51
+50V13*Impl_Text_Contents{string}<9|150p14> 50^33 11|64b14 68l8 68t26
+50p33 R(23R9) 11|64b34 67r22
+56R9*Small_String_Impl<9|104R10> 9|119p14 10|58e14 61P14 61r32 64P14 64r48
+. 67P13 67r33 70P14 70r32 73P15 73r51 77P14 77r37 82P14 82r54 11|74r32 89r63
+. 98r48 113r63 123r34 129r32 137r51 144r37 157r54 173r62
+57a7*S{string} 11|81r33 81r40 81r56 88r80 88r87 88r103 89m136 105r41 105r49
+. 105r66 112r89 112r97 112r114 113m136 132r40 133r23 140r61 140r70 153r41
+. 160r24 173m122
+61V14*"&"{9|83P10}<9|109p13> 61^18 61>51 11|74b14 96l9 96t11
+61p18 Left(56R9) 11|74b18 76r26 78r80 79r123 81r28 81r35 81r51 83r25 88r44
+. 88r75 88r82 88r98 89r123 92r25
+61s51 Right{string} 11|74b51 76r11 78r65 79r108 81r66 88r58 88r113 89r108
+64V14*"&"{9|83P10}<9|110p13> 64>18 64^33 11|98b14 120l9 120t11
+64s18 Left{string} 11|98b18 100r11 102r65 103r108 105r28 112r44 112r76 113r123
+64p33 Right(56R9) 11|98b33 100r25 102r79 103r122 105r35 105r43 105r60 107r25
+. 112r58 112r83 112r91 112r108 113r108 116r25
+67U13*Dispose<9|116p15> 67^22 11|83s17 92s17 107s17 116s17 123b14 126l6 126t13
+67p22 R(56R9) 11|123b23
+70V14*Element{character}<9|124p14> 70>23 70>51 11|129b14 134l8 134t15
+70r23 Source{56R9} 11|129b23 132r33 133r16
+70i51 Index{positive} 11|129b51 132r24 133r26
+73U15*To_String<9|131p15> 73^26 74=26 74>50 11|137b15 141l8 141t17
+73p26 Source(56R9) 11|137b26 140r32 140r54 140r63 140r81
+74s26 Target{string} 11|138b26 140m7
+74i50 Start{positive} 11|138b50 140r15 140r24
+77V14*Slice{9|83P10}<9|142p14> 77^21 78>21 78>37 11|144b14 154l9 154t14
+77p21 Source(56R9) 11|144b21 148r48 149r31 150r28 151r38 153r34
+78i21 Low{positive} 11|145b21 148r24 149r12 153r44
+78i37 High{natural} 11|145b37 148r31 148r40 149r24 153r51
+82V14*Impl_Text_Contents{string}<9|150p14> 82^34 11|157b14 161l9 161t27
+82p34 R(56R9) 11|157b34 160r22
+84K13*Make 91l9 91e13 95r17 11|163b18 190l9 190t13
+89V18*Make_String_Impl{9|83P10} 89>36 95r22 11|164b16 189l13 189t29
+89s36 Source{string} 11|164b34 167r13 170r16 171r32 171r50 171r57 171r73
+. 173r107 181r66 182r108 184r28
+94V14*Make_String_Impl=95:22{9|83P10} 11|60s16 153s16
+94s32 Source{string}
+X 11 ropes-string_impl.adb
+11p6 Str{9|186P10} 12r130 14r9
+12p6 Large_Impl{9|83P10} 15r24 17r16
+22p7 Str{9|186P10} 23r131 25r7
+23p7 Large_Impl{9|83P10} 26r14
+78p17 Str{9|186P10} 79r141 81r17
+79p17 Large_Impl{9|83P10} 82r32 84r24
+88a17 Str{string} 89r141
+89p17 Small_Impl{9|83P10} 91r32 93r24
+102p17 Str{9|186P10} 103r141 105r17
+103p17 Large_Impl{9|83P10} 106r32 108r24
+112a17 Str{string} 113r141
+113p17 Small_Impl{9|83P10} 115r32 117r24
+165a10 Small_Str{string} 171m17 173r127
+173p16 Small_Impl{9|83P10} 175r32 176r24
+181p17 Str{9|186P10} 182r128 184r17
+182p17 Large_Impl{9|83P10} 185r32 186r24
+
